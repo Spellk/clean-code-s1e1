@@ -10,7 +10,7 @@
     display: block;
     text-align: right;
   }
-  .logo-page img {
+  .logo-page .logo-img {
     width: 100%;
   }
   .logo-page .more-inf {
@@ -41,10 +41,12 @@
     margin: 0;
     padding: 0px;
   }
-  .li, .h3 {
+  .li,
+  .h3 {
     list-style: none;
   }
-  input,button{
+  .input,
+  .btn {
     outline: none;
   }
   .btn {
