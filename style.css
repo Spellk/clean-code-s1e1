@@ -98,7 +98,7 @@
   }
   
   /* Task list */
-  li {
+  .li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -107,20 +107,20 @@
     justify-content: space-between;
     align-items: center;
   }
-  li > * {
+  .li > * {
     vertical-align: middle;
   }
   
-  li > input[type="checkbox"] {
+  .li > input[type="checkbox"] {
     margin: 0 10px;
   }
-  li > label {
+  .li > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
   }
-  li > input[type="text"] {
+  .li > input[type="text"] {
     width: 226px
   }
   .delete-img {
